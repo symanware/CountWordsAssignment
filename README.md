@@ -12,12 +12,15 @@ created an indexing process for a search system.  It will process a file and app
    git clone  https://github.com/symanware/CountWordsAssignment.git
     
    Build the Project
+   
    With Maven: mvn clean install package
 
    Run test cases
+   
    With Maven: mvn test
 
    Run the Application
+   
    java -jar CountWordsAssignment-1.0-SNAPSHOT.jar [provide .txt input file for indexing]
    eg. java -jar CountWordsAssignment-1.0-SNAPSHOT.jar doc.txt
 
