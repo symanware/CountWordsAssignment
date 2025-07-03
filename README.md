@@ -9,7 +9,7 @@ created an indexing process for a search system.  It will process a file and app
 
 ## Clone the Repository
    
-   clone  https://github.com/symanware/CountWordsAssignment.git
+   git clone  https://github.com/symanware/CountWordsAssignment.git
     
    Build the Project
    With Maven: mvn clean install package
