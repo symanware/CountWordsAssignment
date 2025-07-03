@@ -22,6 +22,7 @@ created an indexing process for a search system.  It will process a file and app
    Run the Application
    
    java -jar CountWordsAssignment-1.0-SNAPSHOT.jar [provide .txt input file for indexing]
+   
    eg. java -jar CountWordsAssignment-1.0-SNAPSHOT.jar doc.txt
 
 
