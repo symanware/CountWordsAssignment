@@ -48,6 +48,7 @@ mist => lines: [1]
 
 -----------------------------------------------------------------------------------------
 Words longer than 5 characters:
+
 monkeys => lines: [1]
 
 mountains => lines: [1]
