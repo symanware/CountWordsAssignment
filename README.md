@@ -5,6 +5,7 @@ created an indexing process for a search system.  It will process a file and app
 
 ##  Technologies Used
 - Java 24
+- Maven 3.9.9
 - JUnit 5
 
 ## Clone the Repository
