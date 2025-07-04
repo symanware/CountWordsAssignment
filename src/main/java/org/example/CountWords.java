@@ -18,9 +18,15 @@ public class CountWords {
         public static void main(String[] args) {
             CountWords countWords = new CountWords();
 
-            countWords.loadRules("config.properties");
-            countWords.processFile(args[0]);
-            countWords.displayResults();
+            if(args.length > 0) {
+
+                countWords.loadRules("config.properties");
+                countWords.processFile(args[0]);
+                countWords.displayResults();
+
+            } else {
+                System.out.println("Please provide a file to process");
+            }
 
         }
 
