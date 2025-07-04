@@ -5,20 +5,27 @@ created an indexing process for a search system.  It will process a file and app
 
 ##  Technologies Used
 - Java 24
+- Maven 3.9.9
 - JUnit 5
 
 ## Clone the Repository
    
-   clone  https://github.com/symanware/CountWordsAssignment.git
+   git clone  https://github.com/symanware/CountWordsAssignment.git
     
-   Build the Project
+## Build the Project
+   
    With Maven: mvn clean install package
 
-   Run test cases
+## Run test cases
+   
    With Maven: mvn test
 
-   Run the Application
+## Run the Application
+   
+   Copy CountWordsAssignment-1.0-SNAPSHOT.jar and doc.txt(file location - resources/sampleInputFile) to another folder and run below command 
+   
    java -jar CountWordsAssignment-1.0-SNAPSHOT.jar [provide .txt input file for indexing]
+   
    eg. java -jar CountWordsAssignment-1.0-SNAPSHOT.jar doc.txt
 
 
